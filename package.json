@@ -1,0 +1,23 @@
+{
+  "name": "ecommerce-livraison",
+  "version": "1.0.0",
+  "description": "Module de gestion des frais de livraison",
+  "main": "livraison.js",
+  "scripts": {
+    "test": "jest",
+    "cucumber": "cucumber-js",
+    "test:all": "npm run test && npm run cucumber"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.1.1",
+    "chai": "^4.3.7",
+    "cucumber": "^6.0.7",
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
