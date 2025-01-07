@@ -1,4 +1,7 @@
 module.exports = {
-    default: `--format-options '{"snippetInterface": "synchronous"}'`
-  }
+    default: [
+      '--require features/**/*.js',
+      '--format progress-bar',
+    ].join(' '),
+  };
   
